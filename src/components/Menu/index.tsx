@@ -39,7 +39,7 @@ export default function Menu() {
 
             <li>
               <NavLink
-                to={'validates'}
+                to={'validations'}
                 className={({ isActive, isPending }) =>
                   isActive
                     ? "active"
