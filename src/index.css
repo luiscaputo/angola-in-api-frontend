@@ -141,6 +141,10 @@ form[action$="destroy"] button {
   padding-bottom: 1rem;
   border-bottom: 1px solid #e3e3e3;
 }
+#link {
+  text-decoration: none;
+  color: #3992ff;
+}
 
 #sidebar > div form {
   position: relative;
