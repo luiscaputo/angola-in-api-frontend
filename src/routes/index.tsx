@@ -2,8 +2,8 @@ import { createBrowserRouter } from "react-router-dom";
 import Menu from "../components/Menu";
 import Counties from "../pages/Couties/Index";
 import ErrorPage from "../pages/ErrorPage";
-import Identification from "../pages/Identification/Index";
-import Validations from "../pages/Validations/Index";
+import UseTerms from "../pages/UseTerms/Index";
+import Repositories from "../pages/Repositories/Index";
 
 
 export const routes = createBrowserRouter([
@@ -13,16 +13,16 @@ export const routes = createBrowserRouter([
         errorElement: <ErrorPage />,
         children: [
             {
-                path: 'identification',
-                element: <Identification />
+                path: 'documentations',
+                element: ''
             },
             {
-                path: 'counties',
-                element: <Counties />
+                path: 'repositories',
+                element:  <Repositories />
             },
             {
-                path: 'validations',
-                element: <Validations />
+                path: 'use-terms',
+                element: <UseTerms />
             },
         ]
     }

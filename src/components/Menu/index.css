@@ -3,3 +3,24 @@
     width: 20%;
     height: 100vh;
 }
+.__tarter{
+    background-color: royalblue;
+    color: white;
+    padding: 16px;
+    cursor: pointer;
+}
+.__tarter:hover {
+    background-color: rgb(16, 56, 175);
+    transform: 2s;
+    transition: 2s;
+}
+
+.__why {
+    text-align: justify;
+}
+
+.__header_link {
+    text-decoration: none;
+    color: #1e1e1e;
+    font-size: 16pt;
+}

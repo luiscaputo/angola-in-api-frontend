@@ -1,0 +1,15 @@
+.__tarter{
+    background-color: royalblue;
+    color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+}
+.__tarter:hover {
+    background-color: rgb(16, 56, 175);
+    transform: 2s;
+    transition: 2s;
+}
+
+.__why {
+    text-align: justify 
+}

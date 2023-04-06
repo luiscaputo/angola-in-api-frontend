@@ -12,12 +12,10 @@ async function action(request: any) {
   return row;
 }
 
-export default function Identification() {
+export default function Repositories() {
   const datas = useLoaderData();
   return (
     <>
-      <h1>{Texts.Identification}</h1>
-      <hr />
       <div id="contact">
         <div>
           <Form method="post" id="">
@@ -94,32 +92,3 @@ export default function Identification() {
     </>
   );
 }
-
-
-{/* <h1>{Texts.Identification}</h1>
-      <hr />
-      <div id="contact">
-        <div>
-          <Form method="post" id="">
-            <p>
-              <label>
-                <input
-                  placeholder="Informe seu BI"
-                  aria-label="Avatar URL"
-                  type="text"
-                  name="avatar"
-                // defaultValue={contact.avatar}
-                />
-                <br />
-              </label>
-            </p>
-            <p>
-              <button type="submit">Consultar Dados</button>
-            </p>
-          </Form>
-        </div>
-      </div>
-
-      <div id="identification_values">
-        
-      </div> */}
